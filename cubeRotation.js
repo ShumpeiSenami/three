@@ -23,7 +23,7 @@ document.getElementById('white-bg').onclick = function() {
     scene.background = new THREE.Color(0xFFFFFF);
 }
 document.getElementById('black-bg').onclick = function() {
-    scene.background = new THREE.Color(0x000001);
+    scene.background = new THREE.Color(0x000000);
 }
 document.getElementById('green-bg').onclick = function() {
     scene.background = new THREE.Color(0x1280c0);
