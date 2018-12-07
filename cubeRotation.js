@@ -48,7 +48,7 @@ scene.add(ambientLight);
 const loader = new THREE.ColladaLoader();
 // dae ファイルのパスを指定
 let model;
-loader.load('models/dae/snowman.dae', (collada) => {
+loader.load('snowman.dae', (collada) => {
     model = collada.scene;
     model.rotation.x += getRadian(30);
     model.rotation.y += getRadian(-15);
